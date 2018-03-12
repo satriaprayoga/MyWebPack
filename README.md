@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif">
+<a href="https://sajt.online">
+  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif" alt="sajt.online" style="width:800px;height:450px;">
+  </a>
 </p>
 
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
