@@ -2,11 +2,11 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap/scss/bootstrap";
+@import "bootstrap";
+
+// Custom
+@import "custom";
 
 // Animate.css
 @import "node_modules/animate.css/source/base";
 @import "node_modules/animate.css/source/fading_entrances/fadeIn";
-
-// Custom
-@import "custom";

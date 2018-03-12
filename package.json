@@ -40,6 +40,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
     "bootstrap": "^4.0.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.10",
