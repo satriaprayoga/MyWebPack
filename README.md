@@ -15,8 +15,9 @@
 
 <p align="center">
    <br>
-  (Actually build, fully progressive)
+  <b>Actually build and progressive</b>
   <br>
+   <br>
   <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif">
 </p>
 
