@@ -1,0 +1,67 @@
+{
+  "name": "mywebpack",
+  "version": "0.0.0",
+  "description":
+    "Quick start a project with Webpack 4, Bootstrap 4 and Font Awesome 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "webpack-dev-server --mode development --open chrome",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlBj/MyWebPack.git"
+  },
+  "keywords": ["Animate.css", "Bootstrap 4", "FontAwesome 5", "Webpack 4"],
+  "author": "Glenn Bjurestrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlBj/MyWebPack/issues"
+  },
+  "homepage": "https://github.com/GlBj/MyWebPack#readme",
+  "lint-staged": {
+    "*.scss": [
+      "stylelint --syntax=scss",
+      "prettier --parser postcss --write",
+      "git add"
+    ],
+    "*.{js,json,css,md}": ["prettier --write", "git add"]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-brands": "^5.0.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.8",
+    "animate.css": "^3.6.1",
+    "autoprefixer": "^8.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^4.0.0",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "husky": "^0.14.3",
+    "jquery": "^3.3.1",
+    "lint-staged": "^7.0.0",
+    "node-sass": "^4.8.1",
+    "popper.js": "^1.12.9",
+    "postcss": "^6.0.19",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "prettier": "^1.11.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "stylelint": "^9.1.1",
+    "stylelint-config-recommended-scss": "^3.1.0",
+    "stylelint-scss": "^2.5.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

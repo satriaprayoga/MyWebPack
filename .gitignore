@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Folders to ignore
+dist
+temp
+
+# Files to ignore
+dist.zip
