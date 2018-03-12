@@ -66,8 +66,10 @@ And to show them just add this in your html
 ...
 ```
 
-### Screenshot from the demo site https://sajt.online
-
 <p align="center">
+   <br>
+  <a href="https://sajt.online">sajt.online</a>
+  <br>
+  <br>
   <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpg?raw=true)" alt="ScreenShot image"/>
 </p>
