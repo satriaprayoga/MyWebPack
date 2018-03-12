@@ -26,7 +26,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(css|scss)$/,
+        test: /\.scss$/,
         use: extractSass.extract({
           use: [
             {
@@ -46,18 +46,30 @@ module.exports = {
               loader: "sass-loader"
             }
           ],
-          // use style-loader in development
-          fallback: "style-loader"
+          fallback: "style-loader",
+          allChunks: true
         })
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+        test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
           {
             loader: "file-loader",
             options: {
               name: "[name].[hash].[ext]",
               outputPath: "images/"
+            }
+          },
+          {
+            loader: "image-webpack-loader",
+            options: {
+              mozjpeg: {
+                progressive: true,
+                quality: 65
+              },
+              webp: {
+                quality: 75
+              }
             }
           }
         ]
