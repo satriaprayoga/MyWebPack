@@ -1,5 +1,6 @@
 # MyWebPack
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8620efe8cc72477a849397ac7025478a)](https://app.codacy.com/app/GlBj/MyWebPack?utm_source=github.com&utm_medium=referral&utm_content=GlBj/MyWebPack&utm_campaign=badger)
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/commits/master)
 [![Build Status](https://travis-ci.org/GlBj/MyWebPack.svg?branch=master)](https://travis-ci.org/GlBj/MyWebPack)
