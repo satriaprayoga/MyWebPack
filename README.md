@@ -1,11 +1,3 @@
-<p align="center">
-  <b>MyWebPack</b>
-   <br>
-  (Actually build, fully progressive)
-  <br>
-  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif">
-</p>
-
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/archive/master.zip)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/commits/master)
@@ -20,6 +12,13 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Webite shields.io](https://img.shields.io/website-up-down-brightgreen-red/http/shields.io.svg)](https://sajt.online/)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
+
+<p align="center">
+   <br>
+  (Actually build, fully progressive)
+  <br>
+  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif">
+</p>
 
 ### Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
 
@@ -65,11 +64,3 @@ And to show them just add this in your html
 <i class="fab fa-facebook"></i>
 ...
 ```
-
-<p align="center">
-   <br>
-  <a href="https://sajt.online">sajt.online</a>
-  <br>
-  <br>
-  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpg?raw=true)" alt="ScreenShot image"/>
-</p>
