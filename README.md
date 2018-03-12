@@ -1,18 +1,16 @@
 # MyWebPack
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8620efe8cc72477a849397ac7025478a)](https://app.codacy.com/app/GlBj/MyWebPack?utm_source=github.com&utm_medium=referral&utm_content=GlBj/MyWebPack&utm_campaign=badger)
+(https://app.codacy.com/app/GlBj/MyWebPack?utm_source=github.com&utm_medium=referral&utm_content=GlBj/MyWebPack&utm_campaign=badger)
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/commits/master)
 [![Build Status](https://travis-ci.org/GlBj/MyWebPack.svg?branch=master)](https://travis-ci.org/GlBj/MyWebPack)
 [![Build Status](https://scrutinizer-ci.com/g/GlBj/MyWebPack/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GlBj/MyWebPack/build-status/master)
-[![dependencies Status](https://david-dm.org/GlBj/MyWebPack/status.svg)](https://david-dm.org/GlBj/MyWebPack)
 [![devDependencies Status](https://david-dm.org/GlBj/MyWebPack/dev-status.svg)](https://david-dm.org/GlBj/MyWebPack?type=dev)
-
-[![Webite shields.io](https://img.shields.io/website-up-down-brightgreen-red/http/shields.io.svg)](https://sajt.online/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/GlBj/MyWebPack.svg)](https://greenkeeper.io/)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GlBj/MyWebPack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GlBj/MyWebPack/?branch=master)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8620efe8cc72477a849397ac7025478a)]
 [![Maintainability](https://api.codeclimate.com/v1/badges/1f0a70b84567c6694d4b/maintainability)](https://codeclimate.com/github/GlBj/MyWebPack/maintainability)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
 
 ### Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
