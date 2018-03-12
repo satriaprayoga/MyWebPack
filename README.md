@@ -12,6 +12,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/1f0a70b84567c6694d4b/maintainability)](https://codeclimate.com/github/GlBj/MyWebPack/maintainability)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/archive/master.zip)
 
 ### Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
 
