@@ -48,7 +48,7 @@ fontawesome.library.add(faCogs, faEdit, faFacebook)
 ...
 ```
 
-And to show them just add them in the index.html
+And to show them just add this in your html
 
 ###### src/index.html
 
