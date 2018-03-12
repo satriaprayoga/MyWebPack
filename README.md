@@ -1,6 +1,8 @@
 <p align="center">
-  <b>MyWebPack</b><br>
-  <br><br>
+  <b>MyWebPack</b>
+   <br>
+  (Actually build, fully progressive)
+  <br>
   <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif">
 </p>
 
