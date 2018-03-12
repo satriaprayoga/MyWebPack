@@ -1,4 +1,8 @@
-# MyWebPack
+<p align="center">
+  <b>MyWebPack</b><br>
+  <br><br>
+  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif">
+</p>
 
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/archive/master.zip)
