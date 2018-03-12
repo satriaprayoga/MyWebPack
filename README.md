@@ -19,6 +19,10 @@
 [![Webite shields.io](https://img.shields.io/website-up-down-brightgreen-red/http/shields.io.svg)](https://sajt.online/)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
 
+<p align="center">
+<b>Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css</b>
+</p>
+
 ### Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
 
 #### Installation
