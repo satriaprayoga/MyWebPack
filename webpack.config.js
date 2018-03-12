@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
   filename: "[name].[contenthash].css",
@@ -64,6 +65,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(["dist"]),
     extractSass,
     new HtmlWebPackPlugin({
       template: "src/index.html",
