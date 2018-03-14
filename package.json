@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "start": "webpack-dev-server --mode development --open chrome",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
+    "start:dev": "webpack-dev-server --mode development --open",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
     "precommit": "lint-staged"
   },
   "repository": {
@@ -49,22 +49,22 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.0.6",
     "husky": "^0.14.3",
-    "image-webpack-loader": "^4.1.0",
+    "image-webpack-loader": "^4.2.0",
     "jquery": "^3.3.1",
     "lint-staged": "^7.0.0",
-    "node-sass": "^4.8.1",
-    "popper.js": "^1.12.9",
+    "node-sass": "^4.8.2",
+    "popper.js": "^1.14.1",
     "postcss": "^6.0.19",
     "postcss-loader": "^2.1.1",
     "precss": "^3.1.2",
     "prettier": "^1.11.1",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "stylelint": "^9.1.1",
+    "stylelint": "^9.1.2",
     "stylelint-config-recommended-scss": "^3.1.0",
     "stylelint-scss": "^2.5.0",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11",
+    "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
   }
 }

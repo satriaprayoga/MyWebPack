@@ -1,8 +1,9 @@
+const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
-  filename: "[name].[contenthash].css",
+  filename: "css/[name].css",
   disable: process.env.NODE_ENV === "development"
 });
 // Bootstrap dependencies
@@ -24,8 +25,16 @@ const providePluginList = {
   Tooltip: "exports-loader?Tooltip!bootstrap/js/src/tooltip",
   Util: "exports-loader?Util!bootstrap/js/src/util"
 };
-
 module.exports = {
+  entry: {
+    index: ["./src/index.js"],
+    bootstrap: ["./src/js/bootstrap.js"],
+    fontawesome: ["./src/js/fontawesome.js"]
+  },
+  output: {
+    path: path.join(__dirname, "dist"),
+    filename: "js/[name].js"
+  },
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
@@ -69,7 +78,7 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "[name].[hash].[ext]",
+              name: "[name].[ext]",
               outputPath: "images/"
             }
           },
@@ -96,5 +105,38 @@ module.exports = {
       template: "src/index.html",
       filename: "index.html"
     })
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        index: {
+          name: "index",
+          test: "index",
+          enforce: true
+        },
+        bootstrap: {
+          name: "bootstrap",
+          test: "bootstrap",
+          enforce: true
+        },
+        fontawesome: {
+          name: "fontawesome",
+          test: "fontawesome",
+          enforce: true
+        },
+        jquery: {
+          test: new RegExp("node_modules" + "\\" + path.sep + "jquery.*"),
+          chunks: "initial",
+          name: "jquery",
+          enforce: true
+        },
+        popper: {
+          test: new RegExp("node_modules" + "\\" + path.sep + "popper.*"),
+          chunks: "initial",
+          name: "popper",
+          enforce: true
+        }
+      }
+    }
+  }
 };

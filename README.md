@@ -1,11 +1,6 @@
-<p align="center">
-<a href="https://sajt.online">
-  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/sajt.online.gif" alt="sajt.online" style="width:800px;height:450px;">
-  </a>
-</p>
+<h1 align="center"> MyWebPack </h1> <br><p align="center">
 
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/archive/master.zip)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/commits/master)
 [![Build Status](https://travis-ci.org/GlBj/MyWebPack.svg?branch=master)](https://travis-ci.org/GlBj/MyWebPack)
 [![Build Status](https://scrutinizer-ci.com/g/GlBj/MyWebPack/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GlBj/MyWebPack/build-status/master)
@@ -16,10 +11,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ecdc0916f3024e9c94064f08661549d2)](https://www.codacy.com/app/GlBj/MyWebPack?utm_source=github.com&utm_medium=referral&utm_content=GlBj/MyWebPack&utm_campaign=Badge_Grade)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1f0a70b84567c6694d4b/maintainability)](https://codeclimate.com/github/GlBj/MyWebPack/maintainability)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Webite shields.io](https://img.shields.io/website-up-down-brightgreen-red/http/shields.io.svg)](https://sajt.online/)
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
 
-### Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
+**MyWebPack** Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
 
 #### Installation
 
@@ -31,16 +24,21 @@ cd MyWebPack && npm install
 #### Build options
 
 ```
-npm run dev     (Build the assets)
-npm run build    (Build the assets and minify them)
-npm run start   (start the development server on port 8080 and open chrome)
+npm run build:dev
+npm run build:prod (Build and minify)
+```
+
+#### Start the dev server
+
+```
+npm run start:dev
 ```
 
 #### Font Awesome 5
 
-Icons to be used has to be set in index.js. By default only a few examples is enabled.
+Icons to be used has to be set in fontawesome.js. By default only a few examples is enabled.
 
-###### src/index.js
+###### src/js/fontawesome.js
 
 ```
 ...
