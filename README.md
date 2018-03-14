@@ -16,7 +16,11 @@
 
 </p>
 
-[Releases](https://github.com/GlBj/MyWebPack/releases) | [Installation](#installation) | | [License](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
+<p align="center">
+  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpeg?raw=true)" alt="ScreenShot image"/>
+</p>
+
+[Releases](https://github.com/GlBj/MyWebPack/releases) | [Installation](#installation) | [License](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
 
 ## Installation
 
@@ -33,8 +37,7 @@ Make sure you have installed all of the following prerequisites on your developm
 git clone git@github.com:GlBj/MyWebPack.git && cd MyWebPack && npm install
 
 
-Or...
-if U don't use ssh (U should!?)
+Or... if U don't use ssh (U should!?)
 
 git clone https://github.com/GlBj/MyWebPack.git && cd MyWebPack && npm install
 ```
