@@ -19,9 +19,9 @@
 #### Installation
 
 ```
-git clone https://github.com/GlBj/MyWebPack.git cd MyWebPack && npm install
+git clone https://github.com/GlBj/MyWebPack.git && cd MyWebPack && npm install
 Or... if U use ssh
-git clone git@github.com:GlBj/MyWebPack.git cd MyWebPack && npm install
+git clone git@github.com:GlBj/MyWebPack.git && cd MyWebPack && npm install
 ```
 
 #### Build options
