@@ -16,12 +16,20 @@
 
 </p>
 
-#### Installation
+## Installation
+
+### Prerequisites
+
+Make sure you have installed all of the following prerequisites on your development machine:
+
+* Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
 
 ```
-git clone https://github.com/GlBj/MyWebPack.git && cd MyWebPack && npm install
-Or... if U use ssh
 git clone git@github.com:GlBj/MyWebPack.git && cd MyWebPack && npm install
+
+Or... if U don't use ssh (U should..)
+git clone https://github.com/GlBj/MyWebPack.git && cd MyWebPack && npm install
 ```
 
 #### Build options
