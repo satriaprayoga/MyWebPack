@@ -20,18 +20,18 @@
   <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpeg?raw=true)" alt="ScreenShot image"/>
 </p>
 
-[Releases](https://github.com/GlBj/MyWebPack/releases) | [Installation](#installation) | [License](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
+[Releases](https://github.com/GlBj/MyWebPack/releases) | [Installation](#installation) | [Issues](https://github.com/GlBj/MyWebPack/issues) | [License](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
 
-## Installation
+# Installation
 
-#### Before You Begin!
+### Before You Begin!
 
 Make sure you have installed all of the following prerequisites on your development machine:
 
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
 
-### Install the repo
+## Install the repo
 
 ```
 git clone git@github.com:GlBj/MyWebPack.git && cd MyWebPack && npm install
@@ -42,25 +42,25 @@ Or... if U don't use ssh (U should!?)
 git clone https://github.com/GlBj/MyWebPack.git && cd MyWebPack && npm install
 ```
 
-#### Build options
+### Build options
 
 ```
 npm run build:dev
 npm run build:prod (Build and minify)
 ```
 
-#### Start the server
+### Start the server
 
 ```
 npm run start:dev
 npm run start:prod (minify)
 ```
 
-#### Font Awesome 5
+### Font Awesome 5
 
 Icons to be used has to be set in fontawesome.js. By default only a few examples is enabled.
 
-##### src/js/fontawesome.js
+#### src/js/fontawesome.js
 
 ```
 import faCogs from '@fortawesome/fontawesome-free-solid/facogs'
@@ -72,7 +72,7 @@ fontawesome.library.add(faCogs, faEdit, faFacebook)
 
 And to show them just add this in your html
 
-##### src/index.html
+#### src/index.html
 
 ```
 <i class="fas fa-cogs"></i>
