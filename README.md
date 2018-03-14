@@ -18,7 +18,7 @@
 
 [Releases](https://github.com/GlBj/MyWebPack/releases) | [Installation](#installation) | | [License](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
 
-# Installation
+### Installation
 
 #### Before You Begin!
 
