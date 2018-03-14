@@ -1,4 +1,6 @@
-<h1 align="center"> MyWebPack </h1> <br><p align="center">
+<h1 align="center"> MyWebPack </h1>
+<h3 align="center"> Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css </h3>
+<p align="center">
 
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack/commits/master)
@@ -12,13 +14,12 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/1f0a70b84567c6694d4b/maintainability)](https://codeclimate.com/github/GlBj/MyWebPack/maintainability)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-**MyWebPack** Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css
-
 #### Installation
 
 ```
-git clone git@github.com:GlBj/MyWebPack.git
-cd MyWebPack && npm install
+git clone https://github.com/GlBj/MyWebPack.git cd MyWebPack && npm install
+Or... if U use ssh
+git clone git@github.com:GlBj/MyWebPack.git cd MyWebPack && npm install
 ```
 
 #### Build options
@@ -28,10 +29,11 @@ npm run build:dev
 npm run build:prod (Build and minify)
 ```
 
-#### Start the dev server
+#### Start the server
 
 ```
 npm run start:dev
+npm run start:prod (minify)
 ```
 
 #### Font Awesome 5
