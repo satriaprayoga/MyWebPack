@@ -18,12 +18,14 @@
 
 ## Installation
 
-### Prerequisites
+#### Prerequisites
 
 Make sure you have installed all of the following prerequisites on your development machine:
 
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
+
+#### Install the repo
 
 ```
 git clone git@github.com:GlBj/MyWebPack.git && cd MyWebPack && npm install
