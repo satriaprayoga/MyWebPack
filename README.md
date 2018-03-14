@@ -1,5 +1,5 @@
 <h1 align="center"> MyWebPack </h1>
-<h3 align="center"> Quick start a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css </h3>
+<h2 align="center"> <b>Quick start</b> a project with Webpack 4, Bootstrap 4, Font Awesome 5 and Animate.css </h2>
 <p align="center">
 
 [![GitHub release](https://img.shields.io/github/release/GlBj/MyWebPack.svg)](https://github.com/GlBj/MyWebPack)
