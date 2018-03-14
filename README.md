@@ -55,13 +55,11 @@ Icons to be used has to be set in fontawesome.js. By default only a few examples
 ###### src/js/fontawesome.js
 
 ```
-...
 import faCogs from '@fortawesome/fontawesome-free-solid/facogs'
 import faEdit from '@fortawesome/fontawesome-free-regular/faedit'
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
 
 fontawesome.library.add(faCogs, faEdit, faFacebook)
-...
 ```
 
 And to show them just add this in your html
@@ -69,7 +67,6 @@ And to show them just add this in your html
 ###### src/index.html
 
 ```
-...
 <i class="fas fa-cogs"></i>
 <i class="far fa-edit"></i>
 <i class="fab fa-facebook"></i>
