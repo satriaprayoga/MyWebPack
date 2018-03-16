@@ -31,13 +31,22 @@ module.exports = {
     bootstrap: ["./src/js/bootstrap.js"],
     fontawesome: ["./src/js/fontawesome.js"]
   },
+  devtool: "source-map",
   output: {
     path: path.join(__dirname, "dist"),
     filename: "js/[name].js"
   },
   module: {
     rules: [
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        include: [
+          __dirname + "/js/",
+          __dirname + "/node_modules/bootstrap/js/"
+        ],
+        loader: "babel-loader"
+      },
       {
         test: /\.html$/,
         use: [
@@ -80,18 +89,6 @@ module.exports = {
             options: {
               name: "[name].[ext]",
               outputPath: "images/"
-            }
-          },
-          {
-            loader: "image-webpack-loader",
-            options: {
-              mozjpeg: {
-                progressive: true,
-                quality: 65
-              },
-              webp: {
-                quality: 75
-              }
             }
           }
         ]
