@@ -96,6 +96,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.ProvidePlugin(providePluginList),
     new CleanWebpackPlugin(["dist"]),
     extractSass,
     new HtmlWebPackPlugin({
