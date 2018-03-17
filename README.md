@@ -20,6 +20,10 @@
   <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpg?raw=true)" alt="ScreenShot image"/>
 </p>
 
+# Why?
+
+The goal for this reporisity is to have a good and quick starting platform to develop websites with the latest versions of webpack 4, bootstrap 4 and font awesome 5. With not too complicated configurations.
+
 # Installation
 
 ### Before You Begin!
@@ -90,9 +94,9 @@ Description is coming soon..
 
 Description is coming soon..
 
-# Goal
+# Demo website
 
-The goal for this reporisity is to have a good and quick starting platform to develop websites with the latest versions of webpack 4, bootstrap 4 and font awesome 5. With not too complicated configurations.
+You can find a live website here ( [sajt.online](https://sajt.online/) ) where this repositorie are used.
 
 # To-do list
 
