@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
-  filename: "css/[name].css",
+  filename: "[name].css",
   disable: process.env.NODE_ENV === "development"
 });
 // Bootstrap dependencies
