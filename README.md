@@ -94,7 +94,7 @@ Description is coming soon..
 
 The goal for this reporisity is to have a good and quick starting platform to develop websites with the latest versions of webpack 4, bootstrap 4 and font awesome 5. With not too complicated configurations.
 
-# ToDo
+# To-do list
 
 I will add more features and updates when I have time. Contributors are more
 then welcome.
