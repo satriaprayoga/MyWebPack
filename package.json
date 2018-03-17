@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "start:dev": "webpack-dev-server --mode development --open",
-    "start:prod": "webpack-dev-server --mode production --open",
+    "server": "webpack-dev-server --mode development --open",
     "build:dev": "webpack --mode development",
     "build:prod": "webpack --mode production",
     "precommit": "lint-staged"

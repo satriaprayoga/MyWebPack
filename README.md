@@ -17,10 +17,14 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpeg?raw=true)" alt="ScreenShot image"/>
+  <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpg?raw=true)" alt="ScreenShot image"/>
 </p>
 
-[Releases](https://github.com/GlBj/MyWebPack/releases) | [Installation](#installation) | [Issues](https://github.com/GlBj/MyWebPack/issues) | [License](https://github.com/GlBj/MyWebPack/blob/master/LICENSE)
+[Installation](#installation) |
+[Usage](#Usage) |
+[Configuration](#Configuration) |
+[Goal](#Goal) |
+[ToDo](#ToDo)
 
 # Installation
 
@@ -31,32 +35,35 @@ Make sure you have installed all of the following prerequisites on your developm
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
 
-## Install the repo
+## Install
+
+The installation takes around 5 min. It all depends on the hardware and internet
+speed you are have.
 
 ```
 git clone git@github.com:GlBj/MyWebPack.git && cd MyWebPack && npm install
-
-
-Or... if U don't use ssh (U should!?)
-
-git clone https://github.com/GlBj/MyWebPack.git && cd MyWebPack && npm install
 ```
 
-### Build options
+# Usage
+
+## Build options
 
 ```
 npm run build:dev
 npm run build:prod (Build and minify)
 ```
 
-### Start the server
+## Start the development server
+
+Starts the server and open http://localhost:8080 in your default web browser.
 
 ```
-npm run start:dev
-npm run start:prod (minify)
+npm run server
 ```
 
-### Font Awesome 5
+# Configuration
+
+## Font Awesome 5
 
 Icons to be used has to be set in fontawesome.js. By default only a few examples is enabled.
 
@@ -80,3 +87,32 @@ And to show them just add this in your html
 <i class="fab fa-facebook"></i>
 ...
 ```
+
+## Bootstrap 4
+
+Description is coming soon..
+
+## Animate
+
+Description is coming soon..
+
+# Goal
+
+The goal for this reporisity is to have a good and quick starting platform to develop websites with the latest versions of webpack 4, bootstrap 4 and font awesome 5. With not too complicated configurations.
+
+# ToDo
+
+I will add more features and updates when I have time. Contributors are more
+then welcome.
+
+* Add purgecss to minimize the outputted css file.
+
+* Update this README.md. Maybe move some to doc files.
+
+* Split the configuration for development and production using webpack-merge.
+
+* Add ESLint for better debugging.
+
+* And a lot more…
+
+// @GlBj
