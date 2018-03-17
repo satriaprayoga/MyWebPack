@@ -20,12 +20,6 @@
   <img src="https://github.com/GlBj/MyWebPack/blob/master/src/images/screenshot.jpg?raw=true)" alt="ScreenShot image"/>
 </p>
 
-[Installation](#installation) |
-[Usage](#Usage) |
-[Configuration](#Configuration) |
-[Goal](#Goal) |
-[ToDo](#ToDo)
-
 # Installation
 
 ### Before You Begin!
@@ -106,13 +100,11 @@ I will add more features and updates when I have time. Contributors are more
 then welcome.
 
 * Add purgecss to minimize the outputted css file.
-
-* Update this README.md. Maybe move some to doc files.
-
+* Add some more useful demo content in index.html and index.js.
 * Split the configuration for development and production using webpack-merge.
-
+* Update this README.md. Maybe move some to doc files.
 * Add ESLint for better debugging.
-
+* Update the website.
 * And a lot more…
 
 // @GlBj
