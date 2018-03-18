@@ -1,21 +1,30 @@
 module.exports = {
+	root: true,
+	plugins: ["prettier"],
 	env: {
 		browser: true,
 		node: true,
 		es6: true
 	},
-	parser: "babel-eslint",
+	parserOptions: {
+		ecmaVersion: 2017
+	},
 	extends: "eslint:recommended",
-	parserOptions: {
-		ecmaVersion: 2017,
-		sourceType: "script"
-	},
 	rules: {
-		"no-unused-vars": 2,
-		"no-console": 1
-	},
-	root: true,
-	parserOptions: {
-		sourceType: "module"
+		"prettier/prettier": "error",
+		"no-undef": "error",
+		"no-extra-semi": "error",
+		semi: "error",
+		"global-require": "off",
+		"brace-style": "error",
+		"eol-last": "error",
+		"no-extra-bind": "warn",
+		"no-process-exit": "warn",
+		"no-use-before-define": "off",
+		"no-unused-vars": ["error", { args: "none" }],
+		"no-unsafe-negation": "error",
+		"no-loop-func": "warn",
+		indent: "off",
+		"no-console": "off"
 	}
 };

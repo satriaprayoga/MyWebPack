@@ -5,11 +5,12 @@
 		"Quick start a project with Webpack 4, Bootstrap 4 and Font Awesome 5",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 0",
+		"test": "npm run lint",
 		"server": "webpack-dev-server --mode development --open",
 		"build:dev": "webpack --mode development",
 		"build:prod": "webpack --mode production",
-		"lint": "eslint .",
+		"lint": "./node_modules/.bin/eslint . --color",
+		"lint:fix": "npm run lint -- --fix",
 		"precommit": "lint-staged"
 	},
 	"repository": {
@@ -29,10 +30,7 @@
 			"prettier --parser postcss --write",
 			"git add"
 		],
-		"*.{js,jsx,json}": [
-			"prettier --print-width 80 --tab-width 4 --use-tabs --write",
-			"git add"
-		]
+		"*.{js,jsx,json}": ["prettier --write", "git add"]
 	},
 	"devDependencies": {
 		"@fortawesome/fontawesome": "^1.1.4",
@@ -42,7 +40,6 @@
 		"animate.css": "^3.6.1",
 		"autoprefixer": "^8.1.0",
 		"babel-core": "^6.26.0",
-		"babel-eslint": "^8.2.2",
 		"babel-loader": "^7.1.4",
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-minify": "^0.3.0",
@@ -51,6 +48,7 @@
 		"clean-webpack-plugin": "^0.1.19",
 		"css-loader": "^0.28.10",
 		"eslint": "^4.19.0",
+		"eslint-plugin-prettier": "^2.6.0",
 		"exports-loader": "^0.7.0",
 		"extract-text-webpack-plugin": "^4.0.0-beta.0",
 		"file-loader": "^1.1.11",

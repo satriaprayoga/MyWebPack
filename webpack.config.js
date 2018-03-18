@@ -124,17 +124,13 @@ module.exports = {
 					enforce: true
 				},
 				jquery: {
-					test: new RegExp(
-						"node_modules" + "\\" + path.sep + "jquery.*"
-					),
+					test: new RegExp("node_modules" + "\\" + path.sep + "jquery.*"),
 					chunks: "initial",
 					name: "jquery",
 					enforce: true
 				},
 				popper: {
-					test: new RegExp(
-						"node_modules" + "\\" + path.sep + "popper.*"
-					),
+					test: new RegExp("node_modules" + "\\" + path.sep + "popper.*"),
 					chunks: "initial",
 					name: "popper",
 					enforce: true
