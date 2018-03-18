@@ -28,12 +28,13 @@ const providePluginList = {
 };
 module.exports = {
 	target: "web",
+	devtool: "source-map",
 	entry: {
 		index: ["./src/index.js"],
 		bootstrap: ["./src/js/bootstrap.js"],
 		fontawesome: ["./src/js/fontawesome.js"]
 	},
-	devtool: "source-map",
+
 	output: {
 		path: path.join(__dirname, "dist"),
 		filename: "js/[name].js"
@@ -42,12 +43,12 @@ module.exports = {
 		rules: [
 			{
 				test: /\.js$/,
-				exclude: /node_modules/,
 				include: [
 					__dirname + "/js/",
 					__dirname + "/node_modules/bootstrap/js/"
 				],
-				use: ["babel-loader"]
+				exclude: /node_modules/,
+				loader: "babel-loader"
 			},
 			{
 				test: /\.html$/,
@@ -137,6 +138,19 @@ module.exports = {
 					enforce: true
 				}
 			}
+		}
+	},
+
+	devServer: {
+		host: "localhost",
+		port: 3000,
+		contentBase: "./public",
+		open: true,
+		inline: true,
+		disableHostCheck: true,
+		watchOptions: {
+			aggregateTimeout: 300,
+			poll: 1000
 		}
 	}
 };

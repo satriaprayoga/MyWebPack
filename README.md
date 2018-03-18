@@ -53,7 +53,7 @@ npm run build:prod (Build and minify)
 
 ## Start the development server
 
-Starts the server and open http://localhost:8080 in your default web browser.
+Starts the server and open http://localhost:3000 in your default web browser.
 
 ```
 npm run server
