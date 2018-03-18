@@ -27,6 +27,7 @@ const providePluginList = {
 	Util: "exports-loader?Util!bootstrap/js/src/util"
 };
 module.exports = {
+	target: "web",
 	entry: {
 		index: ["./src/index.js"],
 		bootstrap: ["./src/js/bootstrap.js"],
