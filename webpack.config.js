@@ -43,12 +43,13 @@ module.exports = {
 		rules: [
 			{
 				test: /\.js$/,
-				include: [
-					__dirname + "/js/",
-					__dirname + "/node_modules/bootstrap/js/"
-				],
 				exclude: /node_modules/,
-				loader: "babel-loader"
+				use: {
+					loader: "babel-loader",
+					options: {
+						presets: ["env"]
+					}
+				}
 			},
 			{
 				test: /\.html$/,
