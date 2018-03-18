@@ -82,6 +82,7 @@ And to show them just add this in your html
 #### src/index.html
 
 ```
+<i class="fas faGithub"></i>
 <i class="fas fa-cogs"></i>
 <i class="far fa-edit"></i>
 <i class="fab fa-facebook"></i>
@@ -92,7 +93,7 @@ And to show them just add this in your html
 
 Description is coming soon..
 
-## Animate
+ Animate
 
 Description is coming soon..
 
@@ -105,12 +106,12 @@ You can find a live website here ( [sajt.online](https://sajt.online/) ) where t
 I will add more features and updates when I have time. Contributors are more
 then welcome.
 
-* Add purgecss to minimize the outputted css file.
-* Add some more useful demo content in index.html and index.js.
-* Split the configuration for development and production using webpack-merge.
-* Update this README.md. Maybe move some to doc files.
-* Add ESLint for better debugging.
-* ~~Update the website.~~ Last updated 17 March 2018 (v.1.4.3)
-* And a lot more…
+- [ ] Add purgecss to minimize the outputted css file.
+- [ ] Add some more useful demo content in index.html and index.js.
+- [ ] Split the configuration for development and production using webpack-merge.
+- [ ] Update this README.md. Maybe move some to doc files.
+- [x]  ~~Add ESLint for better debugging.~~
+- [x] ~~Update the website.~~ Last updated 18 March 2018 (v.1.5.0)
+- [ ] And a lot more…
 
-// @GlBj
+### // [@GlBj](https://github.com/GlBj)
