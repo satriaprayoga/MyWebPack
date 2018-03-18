@@ -14,7 +14,6 @@ module.exports = {
 		"prettier/prettier": "error",
 		"no-undef": "error",
 		"no-extra-semi": "error",
-		semi: "error",
 		"global-require": "off",
 		"brace-style": "error",
 		"eol-last": "error",
@@ -24,7 +23,6 @@ module.exports = {
 		"no-unused-vars": ["error", { args: "none" }],
 		"no-unsafe-negation": "error",
 		"no-loop-func": "warn",
-		indent: "off",
 		"no-console": "off"
 	}
 };
