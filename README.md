@@ -63,16 +63,18 @@ npm run server
 
 ## Font Awesome 5
 
-Icons to be used has to be set in fontawesome.js. By default only a few examples is enabled.
+Icons you like to use has to be set in fontawesome.js. By default only a few examples is enabled.
 
 #### src/js/fontawesome.js
 
 ```
-import faCogs from '@fortawesome/fontawesome-free-solid/facogs'
-import faEdit from '@fortawesome/fontawesome-free-regular/faedit'
-import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
+const fontawesome = require("@fortawesome/fontawesome");
+const faGithub = require("@fortawesome/fontawesome-free-brands/faGithub");
+const faCogs = require("@fortawesome/fontawesome-free-solid/facogs");
+const faEdit = require("@fortawesome/fontawesome-free-regular/faedit");
+const faFacebook = require("@fortawesome/fontawesome-free-brands/faFacebook");
 
-fontawesome.library.add(faCogs, faEdit, faFacebook)
+fontawesome.library.add(faGithub, faCogs, faEdit, faFacebook);
 ```
 
 And to show them just add this in your html
