@@ -114,4 +114,4 @@ then welcome.
 - [x] ~~Update the website.~~ Last updated 18 March 2018 (v.1.5.0)
 - [ ] And a lot more…
 
-### // [@GlBj](https://github.com/GlBj)
+[@GlBj](https://github.com/GlBj)
