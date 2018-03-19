@@ -7,8 +7,8 @@
 	"scripts": {
 		"test": "npm run lint",
 		"server": "webpack-dev-server --mode development",
-		"build:dev": "webpack --mode development",
-		"build:prod": "webpack --mode production",
+		"build:dev": "webpack --mode development --color",
+		"build:prod": "webpack --mode production --color",
 		"lint": "./node_modules/.bin/eslint . --color",
 		"lint:fix": "npm run lint -- --fix",
 		"precommit": "lint-staged"
