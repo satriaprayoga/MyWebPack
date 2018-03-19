@@ -56,7 +56,7 @@ npm run build:prod (Build and minify)
 Starts the server and open http://localhost:3000 in your default web browser.
 
 ```
-npm run server
+npm run start:server
 ```
 
 # Configuration
@@ -89,11 +89,7 @@ And to show them just add this in your html
 ...
 ```
 
-## Bootstrap 4
-
-Description is coming soon..
-
- Animate
+## Animate.css
 
 Description is coming soon..
 

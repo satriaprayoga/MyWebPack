@@ -1,5 +1,4 @@
 const path = require("path");
-const webpack = require("webpack");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -7,34 +6,13 @@ const extractSass = new ExtractTextPlugin({
 	filename: "[name].css",
 	disable: process.env.NODE_ENV === "development"
 });
-// Bootstrap dependencies
-const providePluginList = {
-	$: "jquery",
-	jQuery: "jquery",
-	"window.jQuery": "jquery",
-	Popper: ["popper.js", "default"],
-	// Bootstrap scripts
-	Alert: "exports-loader?Alert!bootstrap/js/src/alert",
-	Button: "exports-loader?Button!bootstrap/js/src/button",
-	Carousel: "exports-loader?Carousel!bootstrap/js/src/carousel",
-	Collapse: "exports-loader?Collapse!bootstrap/js/src/collapse",
-	Dropdown: "exports-loader?Dropdown!bootstrap/js/src/dropdown",
-	Modal: "exports-loader?Modal!bootstrap/js/src/modal",
-	Popover: "exports-loader?Popover!bootstrap/js/src/popover",
-	Scrollspy: "exports-loader?Scrollspy!bootstrap/js/src/scrollspy",
-	Tab: "exports-loader?Tab!bootstrap/js/src/tab",
-	Tooltip: "exports-loader?Tooltip!bootstrap/js/src/tooltip",
-	Util: "exports-loader?Util!bootstrap/js/src/util"
-};
 module.exports = {
 	target: "web",
 	devtool: "source-map",
 	entry: {
 		index: ["./src/index.js"],
-		bootstrap: ["./src/js/bootstrap.js"],
 		fontawesome: ["./src/js/fontawesome.js"]
 	},
-
 	output: {
 		path: path.join(__dirname, "dist"),
 		filename: "js/[name].js"
@@ -47,7 +25,7 @@ module.exports = {
 				use: {
 					loader: "babel-loader",
 					options: {
-						presets: ["env"]
+						presets: ["env", "minify"]
 					}
 				}
 			},
@@ -100,7 +78,6 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new webpack.ProvidePlugin(providePluginList),
 		new CleanWebpackPlugin(["dist"]),
 		extractSass,
 		new HtmlWebPackPlugin({
@@ -117,8 +94,9 @@ module.exports = {
 					enforce: true
 				},
 				bootstrap: {
+					test: new RegExp("node_modules" + "\\" + path.sep + "bootstrap.*"),
+					chunks: "initial",
 					name: "bootstrap",
-					test: "bootstrap",
 					enforce: true
 				},
 				fontawesome: {

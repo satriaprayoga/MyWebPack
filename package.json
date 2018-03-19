@@ -6,7 +6,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "npm run lint",
-		"server": "webpack-dev-server --mode development",
+		"start:server": "webpack-dev-server --mode development",
 		"build:dev": "webpack --mode development --color",
 		"build:prod": "webpack --mode production --color",
 		"lint": "./node_modules/.bin/eslint . --color",
@@ -42,6 +42,7 @@
 		"babel-core": "^6.26.0",
 		"babel-loader": "^7.1.4",
 		"babel-preset-env": "^1.6.1",
+		"babel-preset-minify": "^0.3.0",
 		"bootstrap": "^4.0.0",
 		"clean-webpack-plugin": "^0.1.19",
 		"css-loader": "^0.28.11",
