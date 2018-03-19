@@ -107,7 +107,7 @@ then welcome.
 - [ ] Split the configuration for development and production using webpack-merge.
 - [ ] Update this README.md. Maybe move some to doc files.
 - [x]  ~~Add ESLint for better debugging.~~
-- [x] ~~Update the website.~~ Last updated 18 March 2018 (v.1.5.0)
+- [x] ~~Update the website.~~ Last updated 19 March 2018 (v.1.5.1)
 - [ ] And a lot more…
 
 [@GlBj](https://github.com/GlBj)
